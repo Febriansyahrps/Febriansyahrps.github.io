@@ -1,0 +1,6 @@
+export const PROFILE_DATA = 'PROFILE_DATA'
+export const PROFILE_ARRAY = 'PROFILE_ARRAY'
+export const SKILL_DATA = 'SKILL_DATA'
+export const SKILL_ARRAY = 'SKILL_ARRAY'
+export const CONTACT_DATA = 'CONTACT_DATA'
+export const CONTACT_ARRAY = 'CONTACT_ARRAY'

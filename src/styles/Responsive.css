@@ -1,0 +1,246 @@
+@media screen and (max-width: 600px){
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    nav {    
+        justify-content: space-around;
+        padding: 0;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 75vh;
+        top: 50px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links.active {
+        transform: translateX(0%);
+    }
+    .menu-icon {
+        display: block;
+    }
+    .fa-times {
+        cursor: pointer;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .fa-bars {
+        cursor: pointer;
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 450px) {    
+    .card-skill-item {
+        text-align: center;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width:500px) {        
+    .contact-container {
+        row-gap: 0;
+    }
+    .contact-icon {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 610px) {
+    .home {
+        height: 600px;
+        background: linear-gradient(to right, #A5A5A5 0%, #A5A5A5 30%, #fff 30%, #fff 100%);
+    }
+    .download-button-container-small {
+        display: none;
+    }
+
+    /* Home */
+    .profile {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .card-profile{
+        margin: 75px 20px 0 0;
+    }
+    .card-profile-top {
+        width: 250px;
+        height: 400px;
+    }
+    .profile-picture-container {
+        padding: 30px;
+    }
+    .card-profile-text {
+        padding: 10px;
+    }
+    .profile-name {
+        margin-bottom: 20px;
+    }
+    .profile-job {
+        display: block;
+        text-align: center;
+        margin-block: 20px;
+        font-size: 16px;
+    }
+    .card-profile-bottom {
+        width: 250px;
+        height: 50px;
+    }
+    .profile-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        width: 300px;
+    }
+    .profile-desc-top h1 {
+        font-size: 100px;
+    }
+    .profile-desc-top p {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .download-button-container-big {
+        display: block;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .download-button {
+        margin-top: 20px;
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+    }
+    .profile-text {
+        margin-top: 10px;
+    }
+
+    /* skills */
+    .skills {
+        padding-top: 25px;
+        padding-inline: 20px;
+        max-width: 650px;
+    }
+    .skill-subheader {
+        max-width: 500px;
+    }
+    .body-skills {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-skills {
+        padding: 0 auto;
+    }
+    .card-skill-item {
+        width: 250px;
+    }
+    
+    /*Contact*/
+    .contact-subheader {
+        font-size: 18px;
+        padding-top: 50px;
+        max-width: 550px;
+    }
+    .contact-container {
+        padding-top: 0;
+        padding-inline: 25px;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+    }
+    .contact-icon {
+        font-size: 70px;
+    }
+
+    /* footer */
+    .footer-container {
+        padding: 10px 75px ;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-copyright {
+        margin: auto 0;
+        padding: 0;
+    }
+    .footer-copyright p { 
+        text-align: left;
+    }
+    .footer-icon-container {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 875px) {
+    /* Home */
+    .home {
+        height: 650px;
+        background: linear-gradient(to right, #A5A5A5 0%, #A5A5A5 40%, #fff 40%, #fff 100%);
+    }
+    .card-profile-top {
+        width: 350px;
+        height: 450px;
+    }
+    .profile-picture {
+        width: 200px;
+    }
+    .profile-name {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .profile-job {
+        font-size: 20px;
+    }
+    .card-profile-bottom {
+        width: 350px;
+    }
+    .profile-desc {
+        margin-top: 55px;
+        width: 400px;
+        height: 500px;
+    }
+    .profile-desc-top h1 {
+        font-size: 125px;
+    }
+    .download-button-container-big {
+        margin-top: 40px;
+    }
+    .download-button {
+        margin-top: 40px;
+    }
+    .profile-text {
+        margin-top: 20px;
+    }
+    .profile-text1 {
+        font-size: 18px;
+    }
+    .profile-text2 {
+        font-size: 18px;
+    }
+
+    /* Skills */
+    .skills {
+        max-width: 1200px;
+    }
+    .body-skills {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* contact */
+    .contact {
+        padding-top: 75px;
+        padding-bottom: 175px;
+    }
+    .contact-icon {
+        font-size: 100px;
+    }
+}
+
+
+

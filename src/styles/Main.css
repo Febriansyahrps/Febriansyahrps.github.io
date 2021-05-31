@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*App*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #fff;
+}
+
+/*Nav*/
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 61px;
+    background-color: #fff;
+    padding-inline: 50px;
+}
+.logo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links a {
+    width: 100%;
+    list-style: none;
+    min-width: 40px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: #adb5bd;
+}
+.menu-icon {
+    display: none;
+}
+.nav-links > .active {
+    color: #adb5bd;
+}
+
+/*Home*/
+.home {
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, #A5A5A5 0%, #A5A5A5 40%, #fff 40%, #fff 100%);
+}
+.profile {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+.card-profile {
+    margin: auto;
+    -webkit-box-shadow: -10px 10px 20px rgba(0,0,0,0.3);
+    -moz-box-shadow: -10px 10px 20px rgba(0,0,0,0.3);
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.3);
+}
+.card-profile-top {
+    width: 300px;
+    height: 350px;
+    background-color: #CCCCCC;
+}
+.profile-picture-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.profile-picture{
+    width: 150px;
+    background-color: #fff;
+    border: 5px solid #F2F2F2;
+    border-radius: 100%;
+}
+.profile-name {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.profile-job {
+    display: none;
+}
+.card-profile-bottom {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+}
+.logo-link-container {
+    cursor: pointer;
+    padding: 7px;
+    margin-inline: 15px;
+    font-size: 25px;
+}
+.logo-link-container a {
+    color: black;
+}
+.download-button-container-small {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.download-button {
+    color: #FFF;
+    font-size: 18px;
+    padding: 7px 15px;
+    background-color: #0062b0;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.download-button:hover {
+    cursor: pointer;
+    background-color: #4682b4;
+    transition: background-color 0.2s ease-in;
+}
+.download-button-container-big {
+    display: none;
+}
+.profile-text {
+    margin-top: 25px;
+}
+.profile-text p {
+    color: #333333;
+    margin-top: 15px;
+}
+.profile-desc {
+    padding-inline: 25px;
+    padding-block: 15px;
+}
+.profile-desc-top h1 {
+    font-size: 40px;
+}
+.profile-desc-top p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Logo-profiles */
+.fa-github:hover {
+    color: #333;
+    transition: color 0.2s ease-in;
+}
+.fa-instagram:hover {
+    color: #fb3958;
+    transition: color 0.2s ease-in;
+}
+.fa-linkedin-in:hover {
+    color: #0072b1;
+    transition: color 0.2s ease-in;
+}
+
+/* line */
+.line-behind-header {
+    margin: auto;
+    border: none;
+    background-color: #274c77;
+    height: 3px;
+    width: 100px;
+}
+.line-behind-name {
+    margin: auto;
+    border: none;
+    background-color: #274c77;
+    height: 3px;
+    width: 20%;
+}
+
+/*Skills*/
+.skills {
+    text-align: center;
+    padding-block: 10px;
+    margin: 0 auto;
+}
+.skill-subheader {
+    padding-top: 10px;
+    padding: 10px 30px 0 30px;
+    margin: auto;    
+    text-align: center;
+    font-size: 15px;
+}
+.body-skills {
+    display: grid;
+    margin-top: 20px;
+}
+.card-skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.card-skill-item {
+    width: 300px;
+}
+.card-skill-item h3 {
+    text-transform: uppercase;
+}
+.card-skill-icon {
+    border: 4px solid #F2F2F2;
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+}
+.card-skill-description h3 {
+    padding-top: 5px;
+    color: #000;
+    font-size: 20px;
+}
+.card-skill-description p {
+    color: #333333;
+    font-size: 15px;
+}
+
+/* Skill Icons */
+.fa-html5 {
+    padding-block: 11px;
+    color: #e34c26;
+    font-size: 100px;
+}
+.fa-css3-alt {
+    padding-block: 11px;
+    color: #264de4;
+    font-size: 100px;
+}
+.fa-js-square {
+    padding-block: 13px;
+    color: #F0DB4F;
+    font-size: 90px;
+}
+.fa-react {
+    padding-block: 9px;
+    color: #61DBFB;
+    font-size: 100px;
+}
+.fa-git {
+    padding-block: 19px;
+    color: #F1502F;
+    font-size: 80px;
+}
+.fa-npm {
+    padding-block: 18px;
+    color: #CC3534;
+    font-size: 80px;
+}
+
+/*Contact*/
+.contact {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.contact-header {
+    text-align: center;
+}
+.contact-subheader {
+    padding-top: 10px;
+    max-width: 500px;
+    padding: 10px 30px 0 30px;
+    margin: auto;    
+    text-align: center;
+    font-size: 15px;
+}
+.contact-container {
+    padding-top: 25px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+.contact-item-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 275px;
+}
+.contact-icon {
+    font-size: 50px;
+}
+.contact-text {
+    margin: auto 0 ;
+    padding-left: 15px;
+}
+.contact-text h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.contact-text p {
+    color: #333333;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* contact icon */
+.fa-telegram {
+    color: #0088cc;
+}
+.fa-envelope {
+    color: #896b46;
+}
+
+/*Footer*/
+footer {
+    background-color: #CCCCCC;
+}
+.footer-container {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+.footer-copyright {
+    padding-top: 10px;
+}
+.footer-copyright p { 
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-socmed p {
+    font-weight: bold;
+    text-align: center;
+}
+.footer-icon-container {
+    display: flex;
+    justify-content: center;
+}
+.footer-icon {
+    cursor: pointer;
+    padding-inline: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.footer-icon a {
+    color: black;
+}
