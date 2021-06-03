@@ -31,7 +31,7 @@ class Home extends Component {
                                     </div>
                                     <hr className="line-behind-name"/>
                                     <div className="download-button-container-small">
-                                        <a className="download-button" href={this.props.item.resume_link} target="blank">Download Resume</a>
+                                        <a className="download-button" href={this.props.item.resume_link} target="blank">Download CV</a>
                                     </div>
                                     <div className="profile-job">
                                         <p>{this.props.item.job}</p>
@@ -52,7 +52,7 @@ class Home extends Component {
                         </Fade>
                         <Zoom duration={2000}>
                             <div className="download-button-container-big">
-                                <a className="download-button" href={this.props.item.resume_link} target="blank">Download Resume</a>
+                                <a className="download-button" href={this.props.item.resume_link} target="blank">Download Curriculum Vitae</a>
                             </div>
                         </Zoom>
                         <Fade bottom duration={2000}>
