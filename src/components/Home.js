@@ -52,7 +52,7 @@ class Home extends Component {
                         </Fade>
                         <Zoom duration={2000}>
                             <div className="download-button-container-big">
-                                <a className="download-button" href={this.props.item.resume_link} target="blank">Download Curriculum Vitae</a>
+                                <a className="download-button" href={this.props.item.resume_link} target="blank">Download CV</a>
                             </div>
                         </Zoom>
                         <Fade bottom duration={2000}>

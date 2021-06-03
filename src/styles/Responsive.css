@@ -112,13 +112,10 @@
     .download-button-container-big {
         display: block;
         margin-top: 25px;
-        margin-left: 15px;
+        margin-left: 50px;
     }
     .download-button {
-        margin-top: 20px;
         font-size: 18px;
-        width: 200px;
-        height: 40px;
     }
     .profile-text {
         margin-top: 10px;
@@ -210,9 +207,7 @@
     }
     .download-button-container-big {
         margin-top: 40px;
-    }
-    .download-button {
-        margin-top: 40px;
+        margin-left: 75px;
     }
     .profile-text {
         margin-top: 20px;
